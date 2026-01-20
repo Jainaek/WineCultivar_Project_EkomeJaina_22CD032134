@@ -1,0 +1,6 @@
+Name: Ekome Jaina
+Matric Number: 22CD032134
+Machine Learning Algorithm Used: Logistic Regression
+Model Persistence Method Used: Pickle
+Live URL: https://winecultivar-project-ekomejaina.onrender.com/
+GitHub Repository: https://github.com/Jainaek/WineCultivar_Project_EkomeJaina_22CD032134/tree/main/model
