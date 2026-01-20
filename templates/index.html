@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Wine Cultivar Prediction</title>
+</head>
+<body>
+
+<h2>Wine Cultivar Origin Prediction</h2>
+
+<form method="post">
+    {% for feature in features %}
+        <input type="number" step="any" name="{{ feature }}" placeholder="{{ feature }}" required><br>
+    {% endfor %}
+    <br>
+    <button type="submit">Predict</button>
+</form>
+
+{% if prediction %}
+    <h3>Predicted Wine Origin: {{ prediction }}</h3>
+{% endif %}
+
+</body>
+</html>
